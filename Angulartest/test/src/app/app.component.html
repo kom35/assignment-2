@@ -1,0 +1,18 @@
+<table class="table-primary">
+  <thead>
+    <tr>
+      <th scope="col">Employee Code</th>
+      <th scope="col">Employee Name</th>
+      <th scope="col">Employee Email</th>
+      <th scope="col">Employee Designation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let dat of data">
+      <th scope="row">{{dat.empcode}}</th>
+      <td>{{dat.name}}</td>
+      <td>{{dat.email}}</td>
+      <td>{{dat.designation}}</td>
+    </tr>
+  </tbody>
+</table> 
